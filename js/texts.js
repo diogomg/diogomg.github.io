@@ -8,7 +8,7 @@ var pt = {
     interestsPhrase: 'Por que escolher entre teoria e prática se posso conviver com as duas?',
     interestsTitles: ['Yeah, Science!!!', 'Desenvolvimento de Software'],
     interestsTexts: [
-        'Atualmente minha área de pesquisa está concentrada no desenvolvimento de novos mecanismos para o aumento da confiabilidade de redes 5G. Mais especificamente, o gerenciamento de dinâmico de fatias virtuais de rede (dynamic end-to-end network slicing) para usuários com multiplas demandas.',
+        'Atualmente minha área de pesquisa está concentrada no desenvolvimento de novos mecanismos para o aumento da confiabilidade de redes 5G. Mais especificamente, o gerenciamento dinâmico de fatias virtuais de rede (dynamic end-to-end network slicing) para usuários com multiplas demandas.',
         'Como desenvolvedor back end, possuo interesse em gerência de recursos de grandes sistemas, seja utilizando recursos locais ou projetando sistemas para usufruir de recursos externos. Possuo experiência com administração de sistemas Linux e Windows, gerência de banco de dados Oracle e suporte em infraestrutura de redes. Como desenvolvedor, possuo experiência em desenvovimento desktop utilizando Java e banco de dados Oracle.'
     ],
     interestsItens: ['Gerência de recursos', 'Cloud Computing', 'Fog Computing', 'Internet das Coisas', 'Redes Veiculares', 'Redes de Malha sem Fio'],
