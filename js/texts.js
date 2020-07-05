@@ -1,14 +1,14 @@
 var app = angular.module('myHomePage', ['ngCookies']);
 
 var pt = {
-    lang: ['Inglês', 'Português'],
+    lang: ['English', 'Português'],
     navbar: ['Sobre Mim', 'Interesses', 'Contato'],
-    lifeEvents: ['Bacharelado em Ciência da Computação - UTFPR', 'Mestrado em Ciência da Computação - Unicamp'],
+    lifeEvents: ['Bacharelado em Ciência da Computação - UTFPR', 'Mestrado em Ciência da Computação - Unicamp', 'Estágio de Pesquisa - Universidade de Waterloo, Canada', 'Doutorado em Ciência da Computação - Unicamp'],
     interestsTitle: 'Interesses',
     interestsPhrase: 'Por que escolher entre teoria e prática se posso conviver com as duas?',
     interestsTitles: ['Yeah, Science!!!', 'Desenvolvimento de Software'],
     interestsTexts: [
-        'Atualmente minha área de atuação está concentrada na avaliação de desempenho e gerencia de recursos aplicadas às áreas de Redes de Computadores, Sistemas Distribuídos e Estruturas de Dados. O tema da minha dissertação está relacionado a gerência de recursos externos (Fog Computing) para dispositivos relacionados a Internet das Coisas. Mais especificamente, a migração de máquinas virtuais entre servidores da Fog no contexto de redes veiculares.',
+        'Atualmente minha área de pesquisa está concentrada no desenvolvimento de novos mecanismos para o aumento da confiabilidade de redes 5G. Mais especificamente, o gerenciamento de dinâmico de fatias virtuais de rede (dynamic end-to-end network slicing) para usuários com multiplas demandas.',
         'Como desenvolvedor back end, possuo interesse em gerência de recursos de grandes sistemas, seja utilizando recursos locais ou projetando sistemas para usufruir de recursos externos. Possuo experiência com administração de sistemas Linux e Windows, gerência de banco de dados Oracle e suporte em infraestrutura de redes. Como desenvolvedor, possuo experiência em desenvovimento desktop utilizando Java e banco de dados Oracle.'
     ],
     interestsItens: ['Gerência de recursos', 'Cloud Computing', 'Fog Computing', 'Internet das Coisas', 'Redes Veiculares', 'Redes de Malha sem Fio'],
@@ -17,15 +17,15 @@ var pt = {
 }
 
 var en = {
-    lang: ['English', 'Portuguese'],
+    lang: ['English', 'Português'],
     navbar: ['About me', 'Interests', 'Contact'],    
-    lifeEvents: ['Computer Science - UTFPR', 'M.Sc. in Computer Science - University of Campinas'],
+    lifeEvents: ['Computer Science - UTFPR', 'M.Sc. in Computer Science - University of Campinas', 'Research Student - University of Waterloo, Canada', 'Ph.D. in Computer Science - University of Campinas'],
     interestsTitle: 'Interests',
     interestsPhrase: 'Theory and practice should live together. We can enjoy both.',
     interestsTitles: ['Yeah, Science!!!', 'Software Development'],
     interestsTexts: [
-        'My area of expertise is focused on the evaluation of performance and resource management applied to the areas of Computer Networks, Distributed Systems and Data Structures. My research at Unicamp is related to the management of external resources (Fog Computing) for devices related to the Internet of Things. More specifically, virtual machines migration between Fog servers in the context of vehicular networks.',
-         'As a back end developer, I have an interest in resource management in scalable systems, whether using local resources or designing systems to use external resources. I have experience with Linux and Windows systems administration, Oracle database management and network infrastructure support. As a developer, I have experience in desktop development using Java and Oracle technologies.'
+         'My current research area is focused on the development of new mechanisms for end-to-end network slicing. In such context, I aim to improve the reliability of 5G networks to serve users with different, and sometime confidants, requirements.',
+         'As a back end developer, I have an interest in resource management in scalable systems, whether using local resources or designing systems to use external resources. I have experience with Linux and Windows systems administration, Oracle database management, and network infrastructure support. As a developer, I have experience in desktop development using Java and Oracle technologies.'
     ],
     contact: ['Contact Me', 'Leave a message', 'Subject', 'Message', 'Send'],
     quotes: ['In theory there is no difference between theory and practice; in practice there is.',
