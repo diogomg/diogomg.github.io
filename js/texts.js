@@ -3,7 +3,7 @@ var app = angular.module('myHomePage', ['ngCookies']);
 var pt = {
     lang: ['English', 'Português'],
     navbar: ['Sobre Mim', 'Interesses', 'Contato'],
-    lifeEvents: ['Bacharelado em Ciência da Computação - UTFPR', 'Mestrado em Ciência da Computação - Unicamp', 'Estágio de Pesquisa - Universidade de Waterloo, Canada', 'Doutorado em Ciência da Computação - Unicamp'],
+    lifeEvents: ['Bacharelado em Ciência da Computação - UTFPR', 'Mestrado em Ciência da Computação - Unicamp', 'Estágio de Pesquisa - University of Waterloo, Canada', 'Estágio de Pesquisa - Cardiff University, País de Gales/UK', 'Doutorado em Ciência da Computação - Unicamp', 'Engenheiro de software - Tecgraf/PUC-RIo'],
     interestsTitle: 'Interesses',
     interestsPhrase: 'Por que escolher entre teoria e prática se posso conviver com as duas?',
     interestsTitles: ['Yeah, Science!!!', 'Desenvolvimento de Software'],
@@ -19,7 +19,7 @@ var pt = {
 var en = {
     lang: ['English', 'Português'],
     navbar: ['About me', 'Interests', 'Contact'],    
-    lifeEvents: ['Computer Science - UTFPR', 'M.Sc. in Computer Science - University of Campinas', 'Research Student - University of Waterloo, Canada', 'Ph.D. in Computer Science - University of Campinas'],
+    lifeEvents: ['Computer Science - UTFPR', 'M.Sc. in Computer Science - University of Campinas', 'Visiting Researcher - University of Waterloo, Canada', 'Visiting Researcher - Cardiff University, Wales/UK', 'Ph.D. in Computer Science - University of Campinas', 'Software engineer - Tecgraf/PUC-RIo'],
     interestsTitle: 'Interests',
     interestsPhrase: 'Theory and practice should live together. We can enjoy both.',
     interestsTitles: ['Yeah, Science!!!', 'Software Development'],
